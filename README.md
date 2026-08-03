@@ -1,6 +1,6 @@
 # Excel Tools
 
-Utilities for creating Excel workbooks.
+Utilities for creating Excel workbooks used by FlightPath automation projects.
 
 ## Files
 
@@ -8,9 +8,21 @@ Utilities for creating Excel workbooks.
 |------|---------|
 | `Excel_sheet_creator.py` | Create multi-sheet Excel (login + gift card data) |
 
+## Setup
+
+```powershell
+cd "C:\Users\virrd\OneDrive\Desktop\Programs\tertiary\excel-tools"
+python -m pip install pandas openpyxl
+```
+
 ## Run
 
 ```powershell
-pip install pandas openpyxl
 python Excel_sheet_creator.py
+```
+
+## Build EXE
+
+```bat
+build_exe.bat
 ```
